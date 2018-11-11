@@ -1,0 +1,50 @@
+<!--<template name="MasterLayout">
+
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+	</head>
+   <div id="nav-bar">
+  <ul>
+      <div class="nav">{{> loginButtons}}</div>
+  </ul>
+</div>
+
+	<div class="main-content">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		{{> yield}}
+	</div>
+
+    <footer class="page-footer font-small">
+
+  <div class="footer-copyright text-center py-3">HR © 2018 Copyright</div>
+
+</footer>
+
+</template>
+
+-->
+<template name="MasterLayout">
+ <div class="master-container">   <!--home-container-->
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+  </head>
+
+
+     <div class="col">
+    <header>{{> yield region="topnNav"}}</header>
+  
+   
+
+         <div class="main">{{> yield}}</div>
+      
+  
+
+    {{#if currentUser}}
+    <footer class="footer"><b>HR@MoHe-2018</b></footer>
+    {{/if}}
+
+
+  </div>
+ </div>
+</template>
+

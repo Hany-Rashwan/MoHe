@@ -1,0 +1,107 @@
+/*.button_box2 {
+position: relative;
+top:0px;
+left: 500px;
+
+}
+
+.cf:before, .cf:after{
+content:"";
+display:table;
+}
+.cf:after{
+clear:both;
+}
+.cf{
+zoom:1;
+}
+
+
+.form-wrapper-2 
+{
+	width: 260px;
+position: fixed;
+
+}
+
+.form-wrapper-2 input 
+{
+	position: relative;
+	bottom:32px;
+	max-width: 180px;
+	padding: 2px 2.7px;
+	float: left;
+	font: bold 15px 'Raleway', sans-serif;
+	background: transparent;
+	color: black;
+	height: 35px;
+	border:groove;
+
+
+}
+
+ button
+{
+	position: relative;
+	bottom: 32px;
+	float: right;
+	border: 0;
+	cursor: pointer;
+	height: 40px;
+	width: 76px;
+	font: bold 12px/10px 'Raleway', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	background: #D88F3C;
+}
+
+.form-wrapper-2 input:focus {
+outline: 0;
+background: #fff;
+-moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+-webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+.form-wrapper-2 input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-moz-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+.form-wrapper-2 input:-ms-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+
+ 
+.form-wrapper-2 button:hover{
+background: #FA8807;
+}
+.form-wrapper-2 button:active,
+.form-wrapper-2 button:focus{
+background: #c42f2f;
+}
+.form-wrapper-2 button:before {
+content: '';
+position: absolute;
+border-width: 8px 8px 8px 0;
+border-style: solid solid solid none;
+border-color: transparent #D88F3C transparent;
+top: 12px;
+left: -6px;
+}
+.form-wrapper-2 button:hover:before{
+border-right-color: #FA8807;
+}
+.form-wrapper-2 button:focus:before{
+border-right-color: #c42f2f;
+}
+.form-wrapper-2 button::-moz-focus-inner {
+border: 0;
+padding: 0;
+}*/

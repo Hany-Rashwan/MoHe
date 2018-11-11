@@ -1,0 +1,13 @@
+<template name="sidebar">
+	<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=no">
+	</head>
+	<aside class="sidebar-left"> 
+	<img src="cupcake.jpg" class="responsive">
+	<a class="company-logo" href="#">{{currentUser.email}}</a>
+		<div class="sidebar-links">
+			<div  class="searchForm" >{{>searchSidebar}}</div>
+			<a class="link-purple logout" href="#" id="logout-link"><i class="fa fa-sign-out"></i>Admin</a>
+		</div>
+	</aside>
+</template>

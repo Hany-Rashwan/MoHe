@@ -1,0 +1,109 @@
+
+.form-group
+{
+   align-content: space-around;
+   background-color: #FFFFCC;
+   padding-right: 23px;
+   transform: scale(0.9);
+   height: 75px;
+    /*margin-top: -28px;*/
+    /* transform: scale(0.9);
+        zoom: 0.9;*/
+    /*padding-top: -15px;*/
+     margin-top: -25px;
+     box-sizing: content-box;
+     border: 0.2px;
+     border-radius: 50px; 
+     border-color:  #ff8c00;
+}
+
+.form-group label
+{
+margin-left: 5px;
+}
+
+.form-group input[type="text"]
+{
+  /*transform: scale(0.9);*/
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 10px;  
+    background-color: white;
+    border-color: orange;
+    height: 40px;
+    margin-left: 15px;
+    font-size: larger;
+    /* font-size: x-large;
+     font-weight: 900;
+     width: 50%;
+    transform: scale(0.9);
+    zoom: 0.9;
+    margin-top: 0.2px;*/
+}
+
+
+.radio-inline
+{
+ 
+  position: relative;
+  max-width: 100%;
+  padding-top: 0px;
+
+
+}
+
+.af-radio-group 
+{
+   /*color:black;
+   font-weight: 800;
+   text-align: center;
+   font-style: oblique;
+   width: 100%;
+   position: absolute;
+   padding-right: 2px;
+   padding-left: 2px;*/
+   
+ 
+}
+
+.af-radio-group input[type="radio"]
+{
+  /* width: 20px;
+   height: 30px;
+   margin-left: -12px;
+   display: inline;*/
+}
+
+.af-radio-group label
+{
+  /*text-align: justify-all;
+  padding-right:20px;
+  display: inline;*/
+}
+
+.btnposition
+{
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 10px; 
+  position: relative;
+  right: 100%;
+  max-width: 100%;
+  transform: scale(0.9);
+  margin-bottom: 10px;
+}
+
+legend
+{
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+.main 
+{
+         
+}
+
+fieldset
+{
+  margin-top: -20px;
+}

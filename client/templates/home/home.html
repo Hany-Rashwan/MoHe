@@ -1,0 +1,37 @@
+<template name="Home">
+
+<!--{{#if currentUser}}-->
+{{>updateGrocerwithPos}}
+<!--{{/if}}-->
+ <!--{{> quickForm collection="Mohedb" id="Home" type="insert" }} -->
+</template>
+
+
+<!--<template name="updateGrocerwithPos">
+ {{> quickForm collection="Mohedb" id="updateGrocerwithPos" type="update" doc=GrocerPosNo}}
+</template>-->
+
+<template name="updateGrocerwithPos">
+ {{#autoForm collection="Mohedb" id="updateGrocerwithPos" type="update" doc=GrocerPosNo}}
+    <fieldset>
+      <legend>Complete Grocers Data</legend>
+      {{> afQuickField name='Edara'}} 
+      {{> afQuickField name='postOffice'}}
+      {{> afQuickField name='grocerName'}}
+      {{> afQuickField name='grocerMobilPhone'}}
+      {{> afQuickField name='grocerNationalNo'}}
+      {{> afQuickField name='grocerCardNo'}}
+      {{> afQuickField name='grocerState'}}
+      {{> afQuickField name='posCode'}}
+      {{> afQuickField name='oldPosSerial'}}
+      {{> afQuickField name='oldPosState'}}
+      {{> afQuickField name='newPosSerial'}}
+      {{> afQuickField name='newPosState'}}
+      {{> afQuickField name='pinpadSerial'}}
+      {{> afQuickField name='simType'}}
+      {{> afQuickField name='simSerial'}}
+      {{> afQuickField name='psamSerial'}}
+    </fieldset>
+       <button type="submit" class=" btnposition btn btn-primary">SUBMIT</button>
+  {{/autoForm}}
+</template>

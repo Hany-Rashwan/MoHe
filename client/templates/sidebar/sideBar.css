@@ -1,0 +1,140 @@
+/* The left sidebar */
+.sidebar-left {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  top:0;
+  background-color: #2d2d2d;
+  background-size: cover;
+  width: 10%;
+   padding: 20px 0;
+   margin-left: 0%;
+   max-width: 100px;
+   min-width: 0%;
+}
+
+.responsive  {
+  max-width: 60px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 0px 0px 0px;
+
+}
+
+ a.company-logo {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+   max-width: 60px;
+}
+
+.sidebar-left .sidebar-links {
+  margin: 20px auto;
+   max-width: 60px;
+}
+
+.sidebar-left .sidebar-links  {
+  display: block;
+  text-decoration: none;
+  margin: 0 auto 5px auto;
+  padding: 20px 0;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  color:  #b3bcc5;
+  font-size: 12px;
+  font-weight: bold;
+  border-left-width: 2px;
+  border-left-style: solid;
+   max-width: 60px;
+}
+
+.sidebar-left .sidebar-links a i.fa {
+  display: block;
+  font-size: 35px;
+  margin-bottom: 5px;
+   max-width: 60px;
+}
+
+.sidebar-left .sidebar-links a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+           max-width: 60px;
+}
+
+.sidebar-left .sidebar-links a.selected{
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  font-weight: bold;
+  cursor: default;
+  -webkit-transition: all 0.5s;
+     -moz-transition: all 0.5s;
+       -o-transition: all 0.5s;
+          transition: all 0.5s;
+           max-width: 60px;
+}
+
+/* Link Colors */
+
+
+.sidebar-left .sidebar-links a.link-green {
+  border-color: #52b859;
+ 
+}
+.sidebar-left .sidebar-links a.link-green i.fa {
+  color: #52b859;
+ 
+ 
+}
+
+.sidebar-left .sidebar-links a.link-purple {
+  border-color: #915ba2;
+ 
+  
+}
+.sidebar-left .sidebar-links a.link-purple i.fa {
+  color: #915ba2;
+
+}
+
+/* Making the sidebar responsive */
+@media (max-width: 900px) {
+
+  .main-content{
+    max-width: none;
+    padding: 40px 20px;
+    margin: 0 0 40px;
+     max-width: 60px;
+  }
+
+
+
+  .sidebar-left .sidebar-links {
+    text-align: center;
+    margin: 20px auto 0;
+     max-width: 60px;
+  }
+
+  .sidebar-left .sidebar-links a {
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+    padding: 14px 0;
+    border-left: none;
+    border-top-width: 2px;
+    border-top-style: solid;
+     max-width: 60px;
+  }
+
+}
+
+

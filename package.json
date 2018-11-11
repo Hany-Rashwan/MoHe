@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.5",
+    "babel-runtime": "^6.26.0",
+    "bcrypt": "^3.0.2",
+    "circular-json": "^0.5.9",
+    "cordova": "^8.1.2",
+    "cordova-android": "^7.1.1",
+    "fibers": "^3.0.0",
+    "flatted": "^2.0.0",
+    "meteor-node-stubs": "^0.4.1",
+    "node": "^11.0.0",
+    "npm": "^6.4.1",
+    "simpl-schema": "^1.5.3",
+    "xml2js": "^0.4.19"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
