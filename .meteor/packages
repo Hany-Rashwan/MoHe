@@ -24,3 +24,5 @@ accounts-password@1.5.1
 twbs:bootstrap
 session
 ongoworks:security
+browser-policy
+simple:json-routes
